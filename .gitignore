@@ -1,0 +1,38 @@
+# Ignore Python compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore virtual environment
+venv/
+.env/
+
+# Ignore user-specific configuration files
+*.env
+shodan_api_key.txt
+
+# Ignore output files
+*.csv
+telco-results.json
+telco-humanreadable.txt
+
+# Ignore dependency binaries
+ip4scout-linux-64
+l9filter-linux-64
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp
+*.temp
+
+# Ignore JetBrains IDE files
+.idea/
+
+# Ignore VSCode files
+.vscode/
